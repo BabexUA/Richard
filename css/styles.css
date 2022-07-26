@@ -125,3 +125,129 @@ header {
     display: flex;
     justify-content: center;
 }
+
+.section3{
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+
+
+}
+.w-40{
+    width: 40%;
+}
+
+.container3-item{
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+    margin-bottom: 30px;
+}
+
+.container3-title{
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: #000000;
+    margin-bottom: 22px;
+}
+.container3-item2{
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+}
+.container3-img{
+    margin-bottom: 160px;
+}
+.w-45{
+    width: 45%;
+}
+.mt-155{
+    margin-top: 155px;
+}
+.mt-128{
+    margin-top: 128px;
+}
+.mt-123{
+    margin-top: 123px;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.block{
+    margin-right: 31px;
+    margin-bottom: 160px;
+}
+.block-img{
+    margin-bottom: 40px;
+}
+.block-title{
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+.block-txt{
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+}
+.block2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.block2-item{
+    width: 324px;
+    margin-bottom: 160px;
+}
+.block2-title{
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 59px;
+    line-height: 90px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.block2-txt{
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
