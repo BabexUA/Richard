@@ -374,6 +374,9 @@ header {
     background: #222222;
     margin-right: 16px;
 }
+.owl-dot.active span{
+    background: deeppink;
+}
 .adv{
     display: flex;
     justify-content: center;
@@ -382,4 +385,102 @@ header {
 }
 .mb-245{
     margin-bottom: 245px;
+}
+.section5{
+    max-width: 1440px;
+    margin: auto;
+}
+.download{
+    background-image: url(../images/Rectangle2.png);
+    padding-top: 125px;
+    padding-bottom: 115px;
+}
+.download-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.dlink{
+    display: flex;
+    justify-content: center;
+}
+.dlink-item{
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 1px solid #B04BB3;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.dlink-item.mr-10{
+    background: #FC0A7E;
+    border-radius: 3px;
+    border: none;
+}
+.subscription{
+    padding: 130px 0;
+    background: #1B1B1B;
+}
+.subscription-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.subscription-p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+    margin-bottom: 40px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+
+}
+.email{
+    width: 311px;
+    padding: 22px 0 22px 15px;
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    border: none;
+}
+.button{
+    background: #FC0A7E;
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+}
+.button-txt{
+    padding: 22px 44px;
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
