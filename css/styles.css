@@ -1,0 +1,22 @@
+.first_page {
+  background-image: url("../images/gradient_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container{
+    max-width: 1296px;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+header{
+    justify-content: space-between;
+}
+nav {
+    
+}
