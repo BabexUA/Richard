@@ -51,7 +51,7 @@ nav {
   margin-bottom: 10px;
 }
 
-.container h2 {
+.launch_title {
   font-size: 30px;
   margin-bottom: 45px;
 }
@@ -79,7 +79,7 @@ nav {
   padding-top: 80px;
 }
 
-.container h4 {
+.page_title {
   color: #a8a8a8;
   font-size: 12px;
   font-weight: 400;
@@ -88,7 +88,7 @@ nav {
   margin-bottom: 30px;
 }
 
-.container p {
+.page_text {
   font-size: 38px;
   font-weight: 400;
   color: #fff;
@@ -98,4 +98,93 @@ nav {
 .tablet {
   display: flex;
   justify-content: center;
+}
+
+.third_page {
+  padding-top: 80px;
+  color: #6b6b6b;
+  padding-bottom: 160px;
+}
+
+.orders {
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 160px;
+}
+
+.orders_sub_title {
+  font-size: 12px;
+  margin-bottom: 25px;
+  opacity: 0.3;
+}
+
+.orders_title {
+  color: #000000;
+  font-size: 38px;
+  margin-bottom: 22px;
+  line-height: 48px;
+}
+
+.orders_text {
+  color: #6b6b6b;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.orders_sub_title span {
+  text-transform: uppercase;
+}
+
+.orders:nth-child(2) .orders_item:nth-child(1) {
+  order: 2;
+}
+
+.orders:nth-child(2) .orders_item:nth-child(2) {
+  order: 1;
+}
+
+.advantages {
+  margin-bottom: 160px;
+  justify-content: space-between;
+}
+
+.advantages_item {
+  max-width: 30%;
+  text-align: center;
+}
+
+.advantages_item img {
+  margin-bottom: 40px;
+}
+
+.advantages_item h4 {
+  color: #000000;
+  font-size: 18px;
+  margin-bottom: 17px;
+}
+
+.advantages_item p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.statistics{
+  justify-content: space-around;
+  text-align: center;
+
+}
+
+.statistics_item{
+  width: 20%;
+}
+
+.statistics_item span{
+  color: #333333;
+  font-size: 59px;
+  margin-bottom: 10px;
+}
+
+.statistics_item p{
+  color: #000000;
+  font-size: 18px;
 }
