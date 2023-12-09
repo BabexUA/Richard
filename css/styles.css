@@ -129,6 +129,7 @@ nav {
   color: #6b6b6b;
   font-size: 16px;
   line-height: 30px;
+  max-width: 350px;
 }
 
 .orders_sub_title span {
@@ -168,23 +169,97 @@ nav {
   line-height: 30px;
 }
 
-.statistics{
+.statistics {
   justify-content: space-around;
   text-align: center;
-
 }
 
-.statistics_item{
+.statistics_item {
   width: 20%;
 }
 
-.statistics_item span{
+.statistics_item span {
   color: #333333;
   font-size: 59px;
   margin-bottom: 10px;
 }
 
-.statistics_item p{
+.statistics_item p {
   color: #000000;
   font-size: 18px;
+}
+
+.orders_text span {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.quotes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 66px;
+}
+
+.quote_text {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+.quote_text p {
+  max-width: 700px;
+  color: #6b6b6b;
+}
+
+.author{
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.author span{
+  color: #6b6b6b;
+font-size: 16px;
+margin-right: 20px;
+}
+
+.author span:last-of-type{
+  font-weight: 700;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+.owl-carousel .owl-item img{
+  width: auto;
+}
+
+.owl-dots{
+  width: 100%;
+text-align: center;
+}
+
+.owl-dot span{
+  display: inline-block;
+  margin: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #22222266;
+}
+.owl-dot.active span{
+  background-color: #000000;
+}
+
+.owl-dot.active:hover span{
+  width: 12px;
+  height: 12px;
+  transition: 0.3s;
+}
+
+.companies{
+  display: flex;
+  justify-content: center;
+  margin-top: 121px;
+  margin-bottom: 78px;
 }
